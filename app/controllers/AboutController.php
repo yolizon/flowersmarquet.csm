@@ -1,0 +1,2 @@
+<?php
+render('about/index');
