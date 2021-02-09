@@ -1,3 +1,4 @@
+<!-- <h1><$title?></h1> -->
 <section class="hero pb-3 d-flex align-items-center">
     <article class="container slider">
         <div class="slides">

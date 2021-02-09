@@ -1,3 +1,4 @@
+<!-- <h1><$title</h1> -->
 <section class="py-5">
     <header>
         <h1 class="text-dark text-uppercase font-weight-bold">Contact us</h1>
@@ -5,12 +6,15 @@
     <div class="row">
         <div class='col-md-6'>
             <h3>Flowers Marquet</h3>
+            <?php if(isset($address)):?>
             <ul>
-                <li>facebook</li>
-                <li>instagram/</li>
-                <li>telephone</li>
-                <li><a href="#">[email&#160;protected]</a></li>
+                <li><i class="fa fa-road"></i> <?= $address['street']?></li>
+                <li><i class="fas fa-map-marker-alt"></i> <?= $address['city']?></li>
+                <li><i class="fas fa-home"></i> <?= $address['country']?></li>
+                <li><i class="fa fa-phone"></i> <?= $address['mobile']?></li>
+                <li><i class="fa fa-envelope"></i> <?= $address['email']?></li>
             </ul>
+            <?php endif?>
         </div>
         <div class="col-md-6">
             <form method="POST">

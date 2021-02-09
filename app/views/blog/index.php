@@ -1,5 +1,5 @@
-
-    <h1 class="text-dark text-uppercase text-center font-weight-bold">Our Project</h1>
+<!-- <h1></h1> -->
+    <h2 class="text-dark text-uppercase text-center font-weight-bold">Our Project</h2>
     <div class="container photo1">
         <img src="images/мастеркласс2.jpg">
         <img src="images/свежцветы2.jpg">

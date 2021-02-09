@@ -1,4 +1,4 @@
-
+<!-- <h1><?=$title?></h1> -->
     <section class="pt-5">
         <!-- Categories -->
         <header>

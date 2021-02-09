@@ -1,0 +1,82 @@
+[08-Feb-2021 23:09:11 Europe/Kiev] hello logl
+[08-Feb-2021 23:09:11 Europe/Kiev] hello logl
+[08-Feb-2021 23:09:13 Europe/Kiev] hello logl
+[08-Feb-2021 23:09:13 Europe/Kiev] hello logl
+[08-Feb-2021 23:45:02 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:45:33 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:45:33 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:45:50 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:46:16 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:46:28 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:46:30 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:50:48 Europe/Kiev] PHP Fatal error:  Uncaught Error: Undefined constant "debug_backtrace" in C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php:61
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php on line 61
+[08-Feb-2021 23:50:51 Europe/Kiev] PHP Fatal error:  Uncaught Error: Undefined constant "debug_backtrace" in C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php:61
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php on line 61
+[08-Feb-2021 23:50:51 Europe/Kiev] PHP Fatal error:  Uncaught Error: Undefined constant "debug_backtrace" in C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php:61
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php on line 61
+[08-Feb-2021 23:51:08 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:51:08 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:53:15 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:53:15 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:53:18 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:53:19 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:53:30 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:53:30 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:54:28 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:54:28 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:54:36 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:54:36 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:55:49 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:55:50 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:55:52 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:55:52 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:56:03 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:56:03 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:56:05 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:56:05 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:56:43 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[08-Feb-2021 23:56:43 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 00:04:26 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 00:04:29 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 18:16:40 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 18:16:42 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 18:18:17 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 18:20:06 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 18:50:53 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function sendHeaders(), 0 passed in C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php on line 33 and exactly 2 expected in C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php:6
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php(33): sendHeaders()
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php(2): render('about/index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php(82): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php on line 6
+[09-Feb-2021 18:50:53 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 19:18:52 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function sendHeaders(), 0 passed in C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php on line 33 and exactly 2 expected in C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php:6
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php(33): sendHeaders()
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php(3): render('about/index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php(82): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\bootstap\app.php on line 6
+[09-Feb-2021 19:18:52 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 19:20:14 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 20:56:21 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 21:00:04 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 21:00:04 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 21:34:18 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 4
+[09-Feb-2021 21:35:15 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 4
+[09-Feb-2021 21:35:35 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 4
+[09-Feb-2021 21:46:41 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[09-Feb-2021 22:28:11 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[09-Feb-2021 22:41:16 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
