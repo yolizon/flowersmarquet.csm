@@ -80,3 +80,120 @@ Stack trace:
 [09-Feb-2021 21:46:41 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
 [09-Feb-2021 22:28:11 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
 [09-Feb-2021 22:41:16 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[09-Feb-2021 22:48:18 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[09-Feb-2021 22:48:19 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[10-Feb-2021 18:31:27 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 18:31:29 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[10-Feb-2021 18:43:49 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[10-Feb-2021 18:53:06 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[10-Feb-2021 19:20:27 Europe/Kiev] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 5
+[10-Feb-2021 19:20:56 Europe/Kiev] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 5
+[10-Feb-2021 19:24:38 Europe/Kiev] PHP Parse error:  syntax error, unexpected identifier "var_dump", expecting "," or ";" in C:\xampp\htdocs\flowersmarquet.csm\app\views\about\index.php on line 9
+[10-Feb-2021 19:36:49 Europe/Kiev] PHP Warning:  Undefined variable $params in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 40
+[10-Feb-2021 19:36:49 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\about\index.php on line 1
+[10-Feb-2021 19:38:00 Europe/Kiev] PHP Warning:  Undefined variable $params in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 40
+[10-Feb-2021 19:38:00 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\about\index.php on line 1
+[10-Feb-2021 19:39:02 Europe/Kiev] PHP Warning:  Undefined variable $params in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 40
+[10-Feb-2021 19:39:02 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\about\index.php on line 1
+[10-Feb-2021 19:45:38 Europe/Kiev] PHP Warning:  Undefined variable $params in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 40
+[10-Feb-2021 19:45:39 Europe/Kiev] PHP Warning:  Undefined variable $params in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 40
+[10-Feb-2021 19:46:22 Europe/Kiev] PHP Warning:  Undefined variable $params in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 40
+[10-Feb-2021 20:18:24 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:18:24 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:18:24 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:18:24 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:18:37 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:18:44 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:18:44 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:18:44 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:18:44 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:31 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:31 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:31 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:31 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:33 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:33 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:33 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:33 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:34 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:34 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:34 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:34 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:39 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:39 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:39 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:39 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:53 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:53 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:53 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:19:53 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:20:08 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:20:08 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:20:08 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:20:08 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:20:09 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:20:09 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:20:09 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:20:09 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:32:13 Europe/Kiev] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 5
+[10-Feb-2021 20:32:13 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 11
+[10-Feb-2021 20:32:13 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 16
+[10-Feb-2021 20:32:13 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 21
+[10-Feb-2021 20:32:13 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 26
+[10-Feb-2021 20:32:13 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 31
+[10-Feb-2021 20:33:04 Europe/Kiev] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 5
+[10-Feb-2021 20:33:04 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 11
+[10-Feb-2021 20:33:04 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 16
+[10-Feb-2021 20:33:04 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 21
+[10-Feb-2021 20:33:04 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 26
+[10-Feb-2021 20:33:04 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 31
+[10-Feb-2021 20:36:13 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 20:36:26 Europe/Kiev] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 5
+[10-Feb-2021 20:36:26 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 11
+[10-Feb-2021 20:36:26 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 17
+[10-Feb-2021 20:36:26 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 23
+[10-Feb-2021 20:36:26 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 29
+[10-Feb-2021 20:36:26 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 34
+[10-Feb-2021 20:38:38 Europe/Kiev] PHP Fatal error:  Cannot use [] for reading in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 5
+[10-Feb-2021 20:38:45 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 5
+[10-Feb-2021 20:38:45 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 11
+[10-Feb-2021 20:38:45 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 17
+[10-Feb-2021 20:38:45 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 23
+[10-Feb-2021 20:38:45 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 29
+[10-Feb-2021 20:38:45 Europe/Kiev] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 34
+[10-Feb-2021 21:17:20 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php:19
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php(19): json_decode(Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(92): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 19
+[10-Feb-2021 21:44:17 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[10-Feb-2021 21:44:39 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[10-Feb-2021 21:44:52 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[10-Feb-2021 21:45:05 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[10-Feb-2021 21:48:00 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 21:48:10 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 21:49:38 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[10-Feb-2021 21:54:04 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 21:54:15 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 22:00:41 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 22:00:49 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[10-Feb-2021 22:04:17 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[12-Feb-2021 19:30:49 Europe/Kiev] <h1>404: Oops, Page not found!</h1>
+[12-Feb-2021 21:26:27 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[12-Feb-2021 21:26:44 Europe/Kiev] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 6
+[12-Feb-2021 21:26:57 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[12-Feb-2021 21:29:11 Europe/Kiev] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 6
+[12-Feb-2021 21:31:37 Europe/Kiev] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 6
+[12-Feb-2021 21:31:41 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[12-Feb-2021 21:46:46 Europe/Kiev] PHP Warning:  Undefined array key "created at" in C:\xampp\htdocs\flowersmarquet.csm\app\views\about\index.php on line 48
+[12-Feb-2021 21:46:46 Europe/Kiev] PHP Warning:  Undefined array key "created at" in C:\xampp\htdocs\flowersmarquet.csm\app\views\about\index.php on line 48
+[12-Feb-2021 21:46:46 Europe/Kiev] PHP Warning:  Undefined array key "created at" in C:\xampp\htdocs\flowersmarquet.csm\app\views\about\index.php on line 48
+[12-Feb-2021 21:46:46 Europe/Kiev] PHP Warning:  Undefined array key "created at" in C:\xampp\htdocs\flowersmarquet.csm\app\views\about\index.php on line 48
+[12-Feb-2021 21:46:46 Europe/Kiev] PHP Warning:  Undefined array key "created at" in C:\xampp\htdocs\flowersmarquet.csm\app\views\about\index.php on line 48
+[12-Feb-2021 21:46:46 Europe/Kiev] PHP Warning:  Undefined array key "created at" in C:\xampp\htdocs\flowersmarquet.csm\app\views\about\index.php on line 48
+[12-Feb-2021 21:46:46 Europe/Kiev] PHP Warning:  Undefined array key "created at" in C:\xampp\htdocs\flowersmarquet.csm\app\views\about\index.php on line 48
+[12-Feb-2021 21:46:46 Europe/Kiev] PHP Warning:  Undefined array key "created at" in C:\xampp\htdocs\flowersmarquet.csm\app\views\about\index.php on line 48
+[12-Feb-2021 21:46:46 Europe/Kiev] PHP Warning:  Undefined array key "created at" in C:\xampp\htdocs\flowersmarquet.csm\app\views\about\index.php on line 48
+[12-Feb-2021 22:31:45 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1

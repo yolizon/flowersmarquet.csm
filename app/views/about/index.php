@@ -1,4 +1,4 @@
-<!-- <h1><$title</h1> -->
+
 <section class="py-5">
     <header>
         <h1 class="text-dark text-uppercase font-weight-bold">Contact us</h1>
@@ -21,27 +21,15 @@
                 <div class="contact">
 
                     <div class="table-cell">
-                        <label for="name">Your Name</label>
-                        <input id="name" type="text" name="username">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" name="name">
                     </div>
                     <div class="table-cell">
-                        <label for="company">Your Company</label>
-                        <input id="company" type="text" name="company">
-                    </div>
-
-
-                    <div class="table-cell">
-                        <label for="email">Your Email</label>
+                        <label for="email">Email</label>
                         <input id="email" type="email" name="email">
                     </div>
-                    <div class="table-cell">
-                        <label for="phone">Phone number</label>
-                        <input id="phone" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                            placeholder="000-111-2345">
-                    </div>
 
-
-                    <div class="table-cell full">
+                    <div class="table-row full">
                         <label for="message">Message</label>
                         <textarea id="message" name="message" row="5"></textarea>
                     </div>
@@ -50,13 +38,14 @@
                     <div class="table-cell">
                         <button type="submit" name="submit">Send</button>
                     </div>
-                    <div class="table-cell">
-                        <button type="reset" name="reset">Reset</button>
-                    </div>
 
                 </div>
             </form>
         </div>
     </div>
-
+    <?php if(isset($messages)):?>
+            <?php foreach($messages as $row):?>
+            <li class="mb-2">Customer <?=$row['name']?> texted this<?=$row['message']?> at: <?=date("d-m-Y", strtotime($row['created_at']))?></li>
+                <?php endforeach?>
+            <?php endif?>
 </section>

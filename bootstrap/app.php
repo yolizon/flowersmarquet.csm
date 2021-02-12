@@ -29,17 +29,17 @@ function sendHeaders($status = 200, $headers=[]){
     }
 }
 
-function render($view){
+function render($view, $params=null){
     sendHeaders();
     ob_start();
-    $content = renderView($view);
+    $content = renderView($view, $params);
     require_once VIEWS.'/layouts/app.php';
    echo str_replace('{{content}}', $content, ob_get_clean()); 
 }
-function renderView($view){
-    // if ($params) {
-    //     extract($params);
-    // }
+function renderView($view, $params){
+    if ($params) {
+        extract($params);
+    }
     ob_start();
     require_once VIEWS."/$view.php";
     return ob_get_clean();
@@ -70,6 +70,7 @@ init();
 
 function uri(){
     $uri = urldecode(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
+    //debug_print_backtrace();
     return trim($uri, '/') ?? '';
 }
 
@@ -77,21 +78,21 @@ function conf($mix){
     $url = ROOT."/config/$mix.json"; 
     if(file_exists($url)){
         $json = file_get_contents($url);
+        
         return json_decode($json, true);
     } else{
         echo "File $mix.json does not exists";
         return false;
     }
 }
+
 $routes = require_once ROOT.'/config/routes.php';
 $response = false;
 foreach ($routes as $key => $value) {
-    # code...
-    if($key == trim($_SERVER['REQUEST_URI'], '/')){
-        include_once CONTROLLERS."/${value}";
-        // echo $value;
-        $response =true;
-        break;
+    if ($key == uri()){
+        include_once CONTROLLERS."/${value}"; 
+        $response = true;
+         break;
     }
 }
 
@@ -100,6 +101,6 @@ if(!$response){
     $msg = "<h1>404: Oops, Page not found!</h1>";
     echo $msg;
     //var_dump(debug_backtrace());
-    //debug_print_backtrace();
+    debug_print_backtrace();
     error_log($msg);
 } 
