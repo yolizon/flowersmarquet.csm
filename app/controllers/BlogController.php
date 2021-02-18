@@ -1,3 +1,8 @@
 <?php
 // $title ="Blog page";
-render('blog/index');
+class BlogController {
+    public function index(){
+        render('blog/index');
+    }
+   
+}

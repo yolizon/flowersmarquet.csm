@@ -29,11 +29,11 @@ function sendHeaders($status = 200, $headers=[]){
     }
 }
 
-function render($view, $params=null){
+function render($view, $params=null, $layout='app'){
     sendHeaders();
     ob_start();
     $content = renderView($view, $params);
-    require_once VIEWS.'/layouts/app.php';
+    require_once VIEWS."/layouts/$layout.php";
    echo str_replace('{{content}}', $content, ob_get_clean()); 
 }
 function renderView($view, $params){
@@ -86,21 +86,52 @@ function conf($mix){
     }
 }
 
+function getController($path){
+$segments = explode('\\', $path);
+$sufix = array_pop($segments);
+$prefix = array_pop($segments);
+$prefix = $prefix?"/$prefix":'';
+
+$segments = explode('@', $sufix);
+$action = array_pop($segments);
+$controller = array_pop($segments);
+
+
+return [$prefix, $controller, $action];
+}
+
 $routes = require_once ROOT.'/config/routes.php';
 $response = false;
 foreach ($routes as $key => $value) {
     if ($key == uri()){
-        include_once CONTROLLERS."/${value}"; 
-        $response = true;
-         break;
+        list($prefix, $controller, $action)=getController($value);
+        if(file_exists(CONTROLLERS."$prefix/${controller}.php")){
+        include_once CONTROLLERS."$prefix/${controller}.php";
+        
+        $controller = new $controller();
+            if(method_exists($controller, $action)){
+                $controller->$action();
+                $response = true;
+                break;
+            }else{
+                error("<li>404: Method not found</li>");
+            }
+
+
+        }else{
+            error("<li>404: File not found</li>");
+        }
     }
 }
 
+function error($errors, $status=404){
+    sendHeaders($status);
+    error_log($errors);
+    render('errors/index', ['title'=>"Error Page", 'errors'=>$errors]);
+    exit();
+}
+
 if(!$response){
-    sendHeaders(404);
-    $msg = "<h1>404: Oops, Page not found!</h1>";
-    echo $msg;
-    //var_dump(debug_backtrace());
-    debug_print_backtrace();
-    error_log($msg);
+    $errors = "<h1>404: Oops, Page not found!</h1>";
+    error($errors);
 } 

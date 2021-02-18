@@ -1,64 +1,40 @@
 <?php
-
-echo "Admin Contact";
-$data = conf('about');
-// $data =$data;
-$url = ROOT.'/config/about.json';
-
-if ($_POST) {
-    if(!$_POST['email'] or !$_POST['street'] or !$_POST['city'] or !$_POST['country'] or !$_POST['mobile']){
-        echo "pleeease, complete all fields";
-    }else{
-        $formdata =[
-            "email" => $_POST['email'],
-            "country" => $_POST['country'],
-            "city" => $_POST['city'],
-            "street" => $_POST['street'],
-            "mobile" => $_POST['mobile']
-        ];
-        $json = json_encode($formdata);
-        if(file_put_contents($url, $json)){
-            $redirect ="http://".$_SERVER['HTTP_HOST']."/about";
-            header("Location: $redirect");
-            exit();
-        }else{
-            echo "error";
+class AboutController {
+    public function index(){
+        $title ="Admin Contact";
+        $data = conf('about');
+        // $data =$data;
+        $url = ROOT.'/config/about.json';
+        
+        if ($_POST) {
+            if(!$_POST['email'] or !$_POST['street'] or !$_POST['city'] or !$_POST['country'] or !$_POST['mobile']){
+                echo "pleeease, complete all fields";
+            }else{
+                $formdata =[
+                    "email" => $_POST['email'],
+                    "country" => $_POST['country'],
+                    "city" => $_POST['city'],
+                    "street" => $_POST['street'],
+                    "mobile" => $_POST['mobile']
+                ];
+                $json = json_encode($formdata);
+                if(file_put_contents($url, $json)){
+                    $redirect ="http://".$_SERVER['HTTP_HOST']."/about";
+                    header("Location: $redirect");
+                    exit();
+                }else{
+                    echo "error";
+                }
+            }
+           
         }
+    render('admin/contact/index', ['title'=>$title, 'data'=>$data], 'admin');        
+    }
+    public function list(){
+        $con = mysqli_connect('localhost', 'root', '', 'shop') or die(mysqli_connect_error());
+        $sql ="SELECT * FROM guestbook";
+        $result = mysqli_query($con, $sql) or die("error selecting rows".mysqli_error($con));
+        $messages=mysqli_fetch_all($result, MYSQLI_ASSOC);
+        render('admin/contact/list', ['title'=>"All messages", 'messages'=>$messages], 'admin');
     }
 }
- 
-
-?>
-
-
-<form method="POST" action=""> 
-<div>
-    <label>Email:  
-    <input type="email" name="email" value="<?=$data['email']?>">
-    </label>
-    </div>
-    
-    <div>
-    <label>Street:  
-    <input type="text" name="street" value="<?=$data['street']?>">
-    </label>
-    </div>
-
-    <div>
-    <label>City:  
-    <input type="text" name="city" value="<?=$data['city']?>">
-    </label>
-    </div>
-
-    <div>
-    <label>Country:  
-    <input type="text" name="country" value="<?=$data['country']?>">
-    </label>
-    </div>
-    <div>
-    <label>Mobile:  
-    <input type="text" name="mobile" value="<?=$data['mobile']?>">
-    </label>
-    </div>
-    <div><input type="submit"></div>
-</form>

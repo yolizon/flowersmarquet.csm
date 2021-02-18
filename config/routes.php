@@ -1,10 +1,13 @@
 <?php
 return [
-    ''=>'HomeController.php',
-    'shop'=>'ShopController.php',
-    'blog'=>'BlogController.php',
-    'about'=>'AboutController.php',
-
-    'admin/about'=>'Admin\AboutController.php',
-
+    ''=>'HomeController@index',
+    'shop'=>'ShopController@index',
+    'blog'=>'BlogController@index',
+    'about'=>'AboutController@index',
+    'admin'=>'Admin\DashboardController@index',
+    'admin/about'=>'Admin\AboutController@index',
+    'admin/about/list'=>'Admin\AboutController@list',
+    'admin/categories'=>'Admin\CategoryController@index',
+    'admin/categories/create'=>'Admin\CategoryController@create',
+    'admin/categories/store'=>'Admin\CategoryController@store',
 ];
