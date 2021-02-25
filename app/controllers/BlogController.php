@@ -1,8 +1,13 @@
 <?php
 // $title ="Blog page";
-class BlogController {
+require_once ROOT.'/core/Controller.php';
+class BlogController extends Controller {
+    public function __construct()
+    {
+        parent::__construct('app');
+    }
     public function index(){
-        render('blog/index');
+        $this->render('blog/index');
     }
    
 }

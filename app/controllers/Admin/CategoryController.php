@@ -1,8 +1,12 @@
 <?php
 require_once ROOT.'/core/connection.php';
-
-class CategoryController
+require_once ROOT.'/core/Controller.php';
+class CategoryController extends Controller
 {
+    public function __construct()
+    {
+        parent::__construct('admin');
+    }
     public function index(){
         $db = new Connection();
         $sql = "SELECT * FROM categories";
@@ -10,11 +14,11 @@ class CategoryController
         $stmt = $db->pdo->prepare($sql);
         $stmt->execute();
         $categories = $stmt->fetchAll();
-        render('admin/categories/index', ['categories'=>$categories], 'admin');
+        $this->render('admin/categories/index', ['categories'=>$categories]);
         
     }
     public function create(){
-        render('admin/categories/create', [], 'admin');
+        $this->render('admin/categories/create');
     }
     public function store(){
         $db = new Connection();

@@ -1,6 +1,17 @@
-<h2>Section title</h2>
-<?php if(count($categories)>0):?>
+<?php
+includeWithVars(VIEWS."/layouts/partials/admin/toolbar.php", [
+    'url'=>'/admin/categories/create',
+    'label'=>"New Category",
+    'title'=>"Categories List",
+
+]);
+?>
+
+
+
 <div class="table-responsive">
+<?php if(count($categories)>0):?>
+
     <table class="table table-striped table-sm">
         <thead>
             <tr>

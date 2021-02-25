@@ -1,3 +1,13 @@
+<?php
+includeWithVars(VIEWS."/layouts/partials/admin/toolbar.php", [
+    'url'=>'/admin/categories',
+    'label'=>"All Categories",
+    'title'=>"Create New Category",
+
+]);
+?>
+
+
 <div class="row.g-3">
     <div class="col-12">
         <form class='' method="POST" action="/admin/categories/store">

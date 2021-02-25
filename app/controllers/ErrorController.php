@@ -1,13 +1,13 @@
 <?php
 // $title ="Home page";
 require_once ROOT.'/core/Controller.php';
-class HomeController extends Controller {
+class ErrorController extends Controller {
     public function __construct()
     {
         parent::__construct('app');
     }
-    public function index(){
-        $this->render('home/index');
+    public function index($errors=[]){
+        $this->render('errors/index', $errors);
     }
    
 }

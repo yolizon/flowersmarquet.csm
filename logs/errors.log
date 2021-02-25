@@ -427,3 +427,131 @@ Stack trace:
 #5 {main}
   thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\categories\index.php on line 2
 [18-Feb-2021 21:19:43 Europe/Kiev] PHP Parse error:  syntax error, unexpected variable "$stmt" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php on line 24
+[24-Feb-2021 20:05:00 Europe/Kiev] PHP Parse error:  syntax error, unexpected token "=>" in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 14
+[24-Feb-2021 20:05:29 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Controller::__construct(), 0 passed in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 111 and exactly 1 expected in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:8
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(111): Controller->__construct()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 8
+[24-Feb-2021 20:06:21 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Controller::__construct(), 0 passed in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 111 and exactly 1 expected in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:8
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(111): Controller->__construct()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 8
+[24-Feb-2021 20:06:23 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Controller::__construct(), 0 passed in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 111 and exactly 1 expected in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:8
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(111): Controller->__construct()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 8
+[24-Feb-2021 20:12:01 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Controller::__construct(), 0 passed in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 111 and exactly 1 expected in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:8
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(111): Controller->__construct()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 8
+[24-Feb-2021 20:12:21 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Controller::__construct(), 0 passed in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 111 and exactly 1 expected in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:8
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(111): Controller->__construct()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 8
+[24-Feb-2021 20:13:06 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Controller::__construct(), 0 passed in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 111 and exactly 1 expected in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:8
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(111): Controller->__construct()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 8
+[24-Feb-2021 20:13:07 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Controller::__construct(), 0 passed in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 111 and exactly 1 expected in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:8
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(111): Controller->__construct()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 8
+[24-Feb-2021 20:16:06 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Controller::__construct(), 0 passed in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 111 and exactly 1 expected in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:8
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(111): Controller->__construct()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 8
+[24-Feb-2021 20:16:38 Europe/Kiev] PHP Parse error:  syntax error, unexpected token "public" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\DashboardController.php on line 5
+[24-Feb-2021 20:17:23 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Controller::__construct(), 0 passed in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 111 and exactly 1 expected in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:8
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(111): Controller->__construct()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 8
+[24-Feb-2021 20:28:20 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php:31
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(113): AboutController->index()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 31
+[24-Feb-2021 20:29:22 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php:31
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(113): AboutController->index()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 31
+[24-Feb-2021 21:59:37 Europe/Kiev] PHP Parse error:  syntax error, unexpected variable "$this", expecting ")" in C:\xampp\htdocs\flowersmarquet.csm\core\response.php on line 54
+[24-Feb-2021 22:00:20 Europe/Kiev] PHP Parse error:  Unclosed '{' on line 3 in C:\xampp\htdocs\flowersmarquet.csm\core\response.php on line 61
+[24-Feb-2021 22:00:45 Europe/Kiev] PHP Fatal error:  Cannot redeclare Response::$statusTexts in C:\xampp\htdocs\flowersmarquet.csm\core\response.php on line 12
+[24-Feb-2021 22:01:44 Europe/Kiev] PHP Fatal error:  Cannot redeclare Response::$statusTexts in C:\xampp\htdocs\flowersmarquet.csm\core\response.php on line 12
+[24-Feb-2021 22:05:11 Europe/Kiev] PHP Fatal error:  Cannot redeclare Response::$statusTexts in C:\xampp\htdocs\flowersmarquet.csm\core\response.php on line 12
+[24-Feb-2021 22:05:23 Europe/Kiev] PHP Fatal error:  Cannot redeclare Response::$statusTexts in C:\xampp\htdocs\flowersmarquet.csm\core\response.php on line 12
+[24-Feb-2021 22:10:38 Europe/Kiev] PHP Fatal error:  Cannot redeclare Response::$statusTexts in C:\xampp\htdocs\flowersmarquet.csm\core\response.php on line 11
+[24-Feb-2021 22:11:11 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property Response::$statusTexts of type array in C:\xampp\htdocs\flowersmarquet.csm\core\response.php:23
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(13): Response->__construct()
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php(8): Controller->__construct('admin')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(116): CategoryController->__construct()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\response.php on line 23
+[24-Feb-2021 22:28:53 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 1
+[24-Feb-2021 22:28:53 Europe/Kiev] PHP Warning:  Undefined variable $errors in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 3
+[24-Feb-2021 22:29:39 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 1
+[24-Feb-2021 22:29:39 Europe/Kiev] PHP Warning:  Undefined variable $errors in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 3
+[24-Feb-2021 22:29:47 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 1
+[24-Feb-2021 22:29:47 Europe/Kiev] PHP Warning:  Undefined variable $errors in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 3
+[24-Feb-2021 22:29:56 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 1
+[24-Feb-2021 22:29:56 Europe/Kiev] PHP Warning:  Undefined variable $errors in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 3
+[24-Feb-2021 22:30:21 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 1
+[24-Feb-2021 22:30:21 Europe/Kiev] PHP Warning:  Undefined variable $errors in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 3
+[24-Feb-2021 22:34:47 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php:3
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(28): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(48): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php on line 3
+[24-Feb-2021 22:34:52 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php:3
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(28): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(48): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php on line 3
+[24-Feb-2021 22:34:55 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php:71
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(28): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(48): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 71
+[24-Feb-2021 22:35:04 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php:31
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(32): AboutController->index()
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(48): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 31
+[24-Feb-2021 22:35:10 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php:31
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(32): AboutController->index()
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(48): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 31
