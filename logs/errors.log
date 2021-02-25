@@ -555,3 +555,161 @@ Stack trace:
 #2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
 #3 {main}
   thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 31
+[25-Feb-2021 19:50:48 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php:3
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(28): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(48): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php on line 3
+[25-Feb-2021 19:50:52 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php:71
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(28): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(48): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 71
+[25-Feb-2021 20:46:00 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method ErrorController::errors() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:46:16 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method ErrorController::errors() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:46:17 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method ErrorController::errors() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:46:20 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method ErrorController::errors() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:46:25 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method ErrorController::errors() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:46:26 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method ErrorController::errors() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:46:26 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method ErrorController::errors() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:46:27 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method ErrorController::errors() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:46:28 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method ErrorController::errors() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:46:38 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method ErrorController::errors() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:46:57 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method ErrorController::errors() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:47:52 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method ErrorController::errors() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:50:48 Europe/Kiev] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:50:48 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:50:49 Europe/Kiev] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:50:49 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:54:02 Europe/Kiev] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 20:54:02 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16
+[25-Feb-2021 21:05:00 Europe/Kiev] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:05:00 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:18
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:07:35 Europe/Kiev] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:07:35 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:18
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:09:08 Europe/Kiev] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:09:08 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:18
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:09:10 Europe/Kiev] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:09:10 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:18
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:09:13 Europe/Kiev] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:09:13 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:18
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:17:39 Europe/Kiev] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:17:39 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:18
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:17:39 Europe/Kiev] PHP Warning:  Undefined variable $e in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:17:39 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:18
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#1 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
+[25-Feb-2021 21:22:41 Europe/Kiev] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 49
+[25-Feb-2021 21:22:41 Europe/Kiev] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 49

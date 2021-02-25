@@ -6,7 +6,7 @@ class ErrorController extends Controller {
     {
         parent::__construct('app');
     }
-    public function index($errors=[]){
+    public function errors($errors=[]){
         $this->render('errors/index', $errors);
     }
    

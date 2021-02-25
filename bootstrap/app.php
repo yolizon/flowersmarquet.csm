@@ -46,3 +46,6 @@ function conf($mix){
     }
 }
 require_once ROOT.'/core/router.php';
+require_once ROOT.'/core/request.php';
+$router =new Router(new Request());
+$router->run();
