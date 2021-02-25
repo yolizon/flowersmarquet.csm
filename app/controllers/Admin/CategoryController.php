@@ -1,7 +1,8 @@
 <?php
 require_once ROOT.'/core/connection.php';
 require_once ROOT.'/core/Controller.php';
-class CategoryController extends Controller
+
+class CategoryController extends Controller 
 {
     public function __construct()
     {
@@ -10,25 +11,44 @@ class CategoryController extends Controller
     public function index(){
         $db = new Connection();
         $sql = "SELECT * FROM categories";
-
         $stmt = $db->pdo->prepare($sql);
         $stmt->execute();
         $categories = $stmt->fetchAll();
         $this->render('admin/categories/index', ['categories'=>$categories]);
-        
     }
+
     public function create(){
         $this->render('admin/categories/create');
     }
+
     public function store(){
         $db = new Connection();
         $sql = "INSERT INTO categories(name, status) VALUES(?, ?)";
-        $status =$_POST['status']? 1:0;
-        $data=[$_POST['name'], $status];
-        $stmt=$db->pdo->prepare($sql);
+        $status = $_POST['status'] ? 1:0;
+        $data = [$_POST['name'], $status];
+        $stmt = $db->pdo->prepare($sql);
+        
         if($stmt->execute($data)){
-            $redirect ="http://".$_SERVER['HTTP_HOST'].'/admin/categories';
-            header("Location:$redirect");
+            $redirect = "http://".$_SERVER['HTTP_HOST'].'/admin/categories';
+            header("Location: $redirect");
         }
+
+    }
+
+    public function edit($params){
+        //var_dump($params);
+
+        extract($params);
+        echo $id;
+        $db= new Connection();
+        $stmt=$db->pdo->prepare("SELECT*FROM categories WHERE id=?");
+        $stmt->execute([$id]);
+        $category=$stmt->fetch();
+        var_dump($category);
+        $this->render('admin/categories/edit', ['category'=>$category]);
+    }
+    public function delete($params){
+        //$this->render('admin/categories/delete');
+        var_dump($params);
     }
 }

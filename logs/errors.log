@@ -713,3 +713,11 @@ Stack trace:
   thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 18
 [25-Feb-2021 21:22:41 Europe/Kiev] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 49
 [25-Feb-2021 21:22:41 Europe/Kiev] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 49
+[25-Feb-2021 21:39:02 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php:31
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(44): AboutController->index()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(13): Router->init('C:\\xampp\\htdocs...', Object(AboutController), 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 31
