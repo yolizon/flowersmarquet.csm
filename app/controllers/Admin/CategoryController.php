@@ -1,5 +1,5 @@
 <?php
-require_once ROOT.'/core/connection.php';
+require_once APP.'/models/Category.php';
 require_once ROOT.'/core/Controller.php';
 
 class CategoryController extends Controller 
@@ -9,11 +9,8 @@ class CategoryController extends Controller
         parent::__construct('admin');
     }
     public function index(){
-        $db = new Connection();
-        $sql = "SELECT * FROM categories";
-        $stmt = $db->pdo->prepare($sql);
-        $stmt->execute();
-        $categories = $stmt->fetchAll();
+   
+        $categories =(new Category())->all();
         $this->render('admin/categories/index', ['categories'=>$categories]);
     }
 
@@ -37,14 +34,8 @@ class CategoryController extends Controller
 
     public function edit($params){
         //var_dump($params);
-
         extract($params);
-        echo $id;
-        $db= new Connection();
-        $stmt=$db->pdo->prepare("SELECT*FROM categories WHERE id=?");
-        $stmt->execute([$id]);
-        $category=$stmt->fetch();
-        var_dump($category);
+        $category=(new Category())->getByPK($id);
         $this->render('admin/categories/edit', ['category'=>$category]);
     }
     public function delete($params){
