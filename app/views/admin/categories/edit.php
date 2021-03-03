@@ -11,6 +11,7 @@ includeWithVars(VIEWS."/layouts/partials/admin/toolbar.php", [
 <div class="row.g-3">
     <div class="col-12">
         <form class='' method="POST" action="/admin/categories/update">
+        <input  type="hidden" name="id" value="<?=$category->id?>">
         <div class="row.g-3">
             <label class="form-label">Edit Name:</label>
             <input class="w-100" type="form-control" name="name" value="<?=$category->name?>">

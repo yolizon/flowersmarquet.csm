@@ -11,6 +11,7 @@ class CategoryController extends Controller
     public function index(){
    
         $categories =(new Category())->all();
+        // var_dump($categories);
         $this->render('admin/categories/index', ['categories'=>$categories]);
     }
 
@@ -19,27 +20,63 @@ class CategoryController extends Controller
     }
 
     public function store(){
-        $db = new Connection();
-        $sql = "INSERT INTO categories(name, status) VALUES(?, ?)";
-        $status = $_POST['status'] ? 1:0;
-        $data = [$_POST['name'], $status];
-        $stmt = $db->pdo->prepare($sql);
         
-        if($stmt->execute($data)){
-            $redirect = "http://".$_SERVER['HTTP_HOST'].'/admin/categories';
-            header("Location: $redirect");
-        }
+        $status= $this->request->input['status'] ? 1:0;
+        //  var_dump($this->request->input['status']);
+        //  exit();
+        // if(isset($this->request->input['status'])){
+        //     $status=1;
+        // }else{
+        //     $status=0;
+        // }
+        // var_dump($status);
+        // exit();
+
+        (new Category())->save([
+            'name'=> $this->request->input['name'],
+            'status'=> $status
+        ]);
+       
+        $redirect = "http://".$_SERVER['HTTP_HOST'].'/admin/categories';
+        header("Location: $redirect");
 
     }
 
     public function edit($params){
-        //var_dump($params);
+        
         extract($params);
         $category=(new Category())->getByPK($id);
         $this->render('admin/categories/edit', ['category'=>$category]);
+        
+    }
+    public function update(){
+           
+        $status= $this->request->input['status'] ? 1:0;
+
+        (new Category())->update($this->request->input['id'], [
+            'name'=> $this->request->input['name'],
+            'status'=> $status ?? 0
+        ]);
+       
+        $redirect = "http://".$_SERVER['HTTP_HOST'].'/admin/categories';
+        header("Location: $redirect");
+        
     }
     public function delete($params){
-        //$this->render('admin/categories/delete');
-        var_dump($params);
+        extract($params);
+        if(isset($this->request->input['submit'])){
+            (new Category())->destroy($id);
+            $redirect = "http://".$_SERVER['HTTP_HOST'].'/admin/categories';
+            header("Location: $redirect");
+            exit();
+        } elseif(isset($this->request->input['reset'])){
+            $redirect = "http://".$_SERVER['HTTP_HOST'].'/admin/categories';
+            header("Location: $redirect");
+            exit();
+        }
+       $category = (new Category())->getByPK($id);
+       $this->render('admin/categories/delete', ['category'=>$category]);
+     
     }
+
 }

@@ -10,6 +10,7 @@ return [
     'admin/categories'=>'Admin\CategoryController@index',
     'admin/categories/create'=>'Admin\CategoryController@create',
     'admin/categories/store'=>'Admin\CategoryController@store',
+    'admin/categories/update'=>'Admin\CategoryController@update',
     'admin/categories/edit/{id}'=>'Admin\CategoryController@edit',
     'admin/categories/delete/{id}'=>'Admin\CategoryController@delete'
 

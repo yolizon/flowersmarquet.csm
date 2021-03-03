@@ -954,3 +954,305 @@ Stack trace:
 #3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
 #4 {main}
   thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 31
+[03-Mar-2021 16:37:58 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 19 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(30): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'edit', Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 17:16:26 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 19 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(30): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'edit', Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 17:22:15 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 1
+[03-Mar-2021 17:22:15 Europe/Kiev] PHP Warning:  Undefined variable $errors in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 3
+[03-Mar-2021 17:43:32 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 1
+[03-Mar-2021 17:43:32 Europe/Kiev] PHP Warning:  Undefined variable $errors in C:\xampp\htdocs\flowersmarquet.csm\app\views\errors\index.php on line 3
+[03-Mar-2021 17:45:17 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 19 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'edit', Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 18:55:37 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 19 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'edit', Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 18:56:16 Europe/Kiev] PHP Parse error:  syntax error, unexpected identifier "edit", expecting "(" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php on line 40
+[03-Mar-2021 18:56:44 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 19 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'edit', Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 18:57:01 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 19 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'edit', Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 18:57:23 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 19 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'edit', Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 19:19:37 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 19 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'edit', Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 19:20:06 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 19 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'edit', Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 19:22:35 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 19 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'edit', Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 19:22:47 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 19 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'edit', Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 20:28:56 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\DashboardController.php(10): Controller->render('admin/index', Array, 'admin')
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): DashboardController->index(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(DashboardController), 'index')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:28:57 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->errors(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:29:11 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php(14): Controller->render('admin/categorie...', Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): CategoryController->index(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'index')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:29:12 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->errors(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:29:55 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php(14): Controller->render('admin/categorie...', Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): CategoryController->index(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'index')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:29:56 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->errors(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:31:59 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php(14): Controller->render('admin/categorie...', Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): CategoryController->index(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'index')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:32:00 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->errors(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:32:05 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\DashboardController.php(10): Controller->render('admin/index', Array, 'admin')
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): DashboardController->index(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(DashboardController), 'index')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:32:05 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->errors(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:37:15 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\DashboardController.php(10): Controller->render('admin/index', Array, 'admin')
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): DashboardController->index(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(DashboardController), 'index')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:37:15 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->errors(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:42:41 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\DashboardController.php(10): Controller->render('admin/index', Array, 'admin')
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): DashboardController->index(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(DashboardController), 'index')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:42:41 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->errors(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:46:52 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\DashboardController.php(10): Controller->render('admin/index', Array, 'admin')
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): DashboardController->index(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(DashboardController), 'index')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:46:52 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Request::setContent() in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:24
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->errors(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 24
+[03-Mar-2021 20:56:54 Europe/Kiev] PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php on line 22
+[03-Mar-2021 20:56:54 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 23 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('errors/index', 'SQLSTATE[HY093]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[HY093]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[HY093]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'store')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 21:20:48 Europe/Kiev] PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php on line 22
+[03-Mar-2021 21:22:29 Europe/Kiev] PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php on line 22
+[03-Mar-2021 21:24:52 Europe/Kiev] PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php on line 22
+[03-Mar-2021 22:32:18 Europe/Kiev] PHP Parse error:  Unclosed '[' on line 56 does not match ')' in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php on line 59
+[03-Mar-2021 22:33:34 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 23 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('errors/index', 'SQLSTATE[HY093]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[HY093]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[HY093]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'update')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 23:01:44 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 23 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'delete', Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 23:02:54 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 23 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'delete', Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[03-Mar-2021 23:03:55 Europe/Kiev] PHP Warning:  Attempt to read property "name" on bool in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\categories\delete.php on line 16
+[03-Mar-2021 23:03:59 Europe/Kiev] PHP Warning:  Attempt to read property "name" on bool in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\categories\delete.php on line 16
+[03-Mar-2021 23:04:10 Europe/Kiev] PHP Warning:  Attempt to read property "name" on bool in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\categories\delete.php on line 16
+[03-Mar-2021 23:07:42 Europe/Kiev] PHP Warning:  Attempt to read property "name" on bool in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\categories\delete.php on line 15
+[03-Mar-2021 23:07:46 Europe/Kiev] PHP Warning:  Attempt to read property "name" on bool in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\categories\delete.php on line 15
+[03-Mar-2021 23:09:21 Europe/Kiev] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php on line 82
