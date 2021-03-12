@@ -18,7 +18,7 @@
                     class="text-gray count-items-in-cart">0</small></a>
                 </li>
                 <li><a href="#" title="Likes"><i class="far fa-heart"></i> </a></li>
-                <li><a href="#openmodal" title="Login"><i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#login" title="Login"><i class="fas fa-sign-in-alt"></i></a></li>
             </ul>
         </div>
     </nav> 

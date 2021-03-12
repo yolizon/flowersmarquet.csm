@@ -1,30 +1,8 @@
 <?php
 
-class User
+require_once ROOT."/core/model.php";
+class User extends Model
 {
-   //
-  public $username ="Default Name";
-  protected $sex;
-  private $age = 22;
-  public function getAge(){
-      return $this->age;
-  }
-  public function setAge($age){
-    $this->age = $age;
-  }
+  protected static string $table = 'users';
+  protected static $primaryKey = 'id';
 }
-
-$user= new User;
-var_dump($user->username);
-
-$user->username ="I Love you";
-var_dump($user->username);
-
-$user1= new User;
-var_dump($user1);
-echo get_class($user1);
-//var_dump($user->sex);
-var_dump($user->getAge());
-
-$user->setAge(19);
-var_dump($user->getAge());

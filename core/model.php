@@ -40,4 +40,15 @@ class Model{
         $stmt = $this->conn->prepare("DELETE FROM " . static::$table ." WHERE " . static::$pk . "=? LIMIT 1");
         $stmt->execute([$id]);
     }
+    public function runSql($sql){
+        $stmt = $this->conn->prepare($sql);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
+    
+    public function getWhere($sql){
+        $stmt = $this->conn->prepare($sql);
+        $stmt->execute();
+        return $stmt->fetch();
+    }
 }

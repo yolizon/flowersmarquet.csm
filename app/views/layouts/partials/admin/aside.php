@@ -14,15 +14,21 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="/admin/brands">
               <span data-feather="file"></span>
-              Orders
+              Brands
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/admin/products">
+              <span data-feather="shopping-cart"></span>
+              Products
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <span data-feather="shopping-cart"></span>
-              Products
+              <span data-feather="file"></span>
+              Orders
             </a>
           </li>
           <li class="nav-item">

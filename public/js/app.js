@@ -289,18 +289,18 @@ function compareValues(key, order = 'asc') {
       );
     };
 }
-// function fetchData(dataBase){
-//     const  baseUrl =`https://github.com/yolizon/db/${dataBase}`;
-//     fetch(baseUrl)
-//     .then(response =>response.json().then(products=>saveProducts(products))).catch(err=>console.error(err));
-// }
+function fetchData(dataBase){
+    const  baseUrl =`http://flowersmarquet.csm/api/${dataBase}`;
+    fetch(baseUrl)
+    .then(response =>response.json().then(products=>saveProducts(products))).catch(err=>console.error(err));
+}
 
 document.addEventListener("DOMContentLoaded", function(){
     
     closeBtn.addEventListener("click", closeCart);
     sidebarToggle.addEventListener("click", toggleCart);
-    saveProducts(products);
-    // fetchData('products');
+    //saveProducts(products);
+    fetchData('products');
 
     const categories = [...new Set(getProducts().map(item=> (
         {

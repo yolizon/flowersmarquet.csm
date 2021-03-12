@@ -1256,3 +1256,327 @@ Stack trace:
 [03-Mar-2021 23:07:42 Europe/Kiev] PHP Warning:  Attempt to read property "name" on bool in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\categories\delete.php on line 15
 [03-Mar-2021 23:07:46 Europe/Kiev] PHP Warning:  Attempt to read property "name" on bool in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\categories\delete.php on line 15
 [03-Mar-2021 23:09:21 Europe/Kiev] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php on line 82
+[04-Mar-2021 15:35:29 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php:31
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): AboutController->index(Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(AboutController), 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 31
+[04-Mar-2021 15:35:35 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 23 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('errors/index', 'SQLSTATE[42S02]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42S02]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42S02]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(FlowersController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[04-Mar-2021 15:35:55 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 23 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('errors/index', 'SQLSTATE[42S02]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42S02]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42S02]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(FlowersController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[04-Mar-2021 15:45:31 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 23 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('errors/index', 'SQLSTATE[42S02]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42S02]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42S02]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(FlowersController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[04-Mar-2021 16:12:29 Europe/Kiev] PHP Warning:  include_once(C:\xampp\htdocs\flowersmarquet.csm/app/controllers\Admin\FlowersController.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 56
+[04-Mar-2021 16:12:29 Europe/Kiev] PHP Warning:  include_once(): Failed opening 'C:\xampp\htdocs\flowersmarquet.csm/app/controllers\Admin\FlowersController.php' for inclusion (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 56
+[04-Mar-2021 16:12:29 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "FlowersController" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:57
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'FlowersControll...', 'index')
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 57
+[04-Mar-2021 16:12:34 Europe/Kiev] PHP Warning:  include_once(C:\xampp\htdocs\flowersmarquet.csm/app/controllers\Admin\FlowersController.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 56
+[04-Mar-2021 16:12:34 Europe/Kiev] PHP Warning:  include_once(): Failed opening 'C:\xampp\htdocs\flowersmarquet.csm/app/controllers\Admin\FlowersController.php' for inclusion (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 56
+[04-Mar-2021 16:12:34 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "FlowersController" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:57
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'FlowersControll...', 'index')
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 57
+[04-Mar-2021 16:25:42 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "FlowerController" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:57
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'FlowerControlle...', 'index')
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 57
+[04-Mar-2021 16:42:12 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Router::init(), 3 passed in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 16 and at least 4 expected in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:53
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('\\Admin\\', 'FlowerControlle...', 'index')
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 53
+[04-Mar-2021 16:43:29 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 23 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('errors/index', 'SQLSTATE[42S02]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42S02]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42S02]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(FlowerController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[04-Mar-2021 16:46:39 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 23 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('errors/index', 'SQLSTATE[42S02]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42S02]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42S02]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(FlowerController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[04-Mar-2021 16:46:47 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 23 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('errors/index', 'SQLSTATE[42S02]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42S02]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42S02]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(FlowerController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[04-Mar-2021 16:46:50 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 23 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('errors/index', 'SQLSTATE[42S02]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42S02]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42S02]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(FlowerController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[04-Mar-2021 17:32:55 Europe/Kiev] PHP Warning:  Undefined variable $flowers in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\brands\index.php on line 13
+[04-Mar-2021 17:32:55 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($var) must be of type Countable|array, null given in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\brands\index.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(23): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('admin/brands/in...', Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\BrandController.php(15): Controller->render('admin/brands/in...', Array)
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): BrandController->index(Array)
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(BrandController), 'index')
+#5 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#6 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\brands\index.php on line 13
+[05-Mar-2021 19:41:36 Europe/Kiev] PHP Warning:  Undefined variable $brands in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\products\create.php on line 43
+[05-Mar-2021 19:41:36 Europe/Kiev] PHP Warning:  Undefined variable $categories in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\products\create.php on line 58
+[05-Mar-2021 19:50:22 Europe/Kiev] PHP Warning:  Undefined variable $brands in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\products\create.php on line 43
+[05-Mar-2021 19:50:22 Europe/Kiev] PHP Warning:  Undefined variable $categories in C:\xampp\htdocs\flowersmarquet.csm\app\views\admin\products\create.php on line 58
+[05-Mar-2021 19:55:50 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Brand" not found in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\ProductController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): ProductController->create(Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'create')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\ProductController.php on line 22
+[05-Mar-2021 20:15:35 Europe/Kiev] PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\ProductController.php on line 29
+[05-Mar-2021 21:16:33 Europe/Kiev] PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\ProductController.php on line 29
+[05-Mar-2021 21:16:33 Europe/Kiev] PHP Warning:  Undefined array key "is_new" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\ProductController.php on line 30
+[05-Mar-2021 21:53:46 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 23 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('errors/index', 'SQLSTATE[42S22]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'SQLSTATE[42S22]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42S22]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(HomeController), 'getProducts')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[05-Mar-2021 22:03:50 Europe/Kiev] PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\CategoryController.php on line 54
+[05-Mar-2021 22:05:35 Europe/Kiev] PHP Warning:  Undefined array key "is_new" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\ProductController.php on line 30
+[05-Mar-2021 22:06:56 Europe/Kiev] PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\ProductController.php on line 29
+[05-Mar-2021 22:06:56 Europe/Kiev] PHP Warning:  Undefined array key "is_new" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\ProductController.php on line 30
+[05-Mar-2021 22:08:17 Europe/Kiev] PHP Warning:  Undefined array key "is_new" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\ProductController.php on line 30
+[05-Mar-2021 22:09:01 Europe/Kiev] PHP Warning:  Undefined array key "is_new" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\ProductController.php on line 30
+[05-Mar-2021 22:09:58 Europe/Kiev] PHP Warning:  Undefined array key "is_new" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\ProductController.php on line 30
+[05-Mar-2021 22:10:47 Europe/Kiev] PHP Warning:  Undefined array key "is_new" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\ProductController.php on line 30
+[10-Mar-2021 23:11:48 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php:3
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(56): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'ShopController', 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php on line 3
+[10-Mar-2021 23:11:52 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php:3
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(56): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'ShopController', 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php on line 3
+[10-Mar-2021 23:12:08 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "BaseController" not found in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\RegisterController.php:3
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(56): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'RegisterControl...', 'singup')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\RegisterController.php on line 3
+[10-Mar-2021 23:13:57 Europe/Kiev] PHP Fatal error:  Type of User::$table must be string (as in class Model) in C:\xampp\htdocs\flowersmarquet.csm\app\models\User.php on line 4
+[10-Mar-2021 23:15:42 Europe/Kiev] PHP Fatal error:  Type of User::$table must be string (as in class Model) in C:\xampp\htdocs\flowersmarquet.csm\app\models\User.php on line 4
+[10-Mar-2021 23:18:43 Europe/Kiev] PHP Fatal error:  Type of User::$table must be string (as in class Model) in C:\xampp\htdocs\flowersmarquet.csm\app\models\User.php on line 4
+[10-Mar-2021 23:18:58 Europe/Kiev] PHP Fatal error:  Type of User::$table must be string (as in class Model) in C:\xampp\htdocs\flowersmarquet.csm\app\models\User.php on line 4
+[10-Mar-2021 23:22:00 Europe/Kiev] PHP Fatal error:  Type of User::$table must be string (as in class Model) in C:\xampp\htdocs\flowersmarquet.csm\app\models\User.php on line 4
+[10-Mar-2021 23:23:01 Europe/Kiev] PHP Fatal error:  Type of User::$table must be string (as in class Model) in C:\xampp\htdocs\flowersmarquet.csm\app\models\User.php on line 4
+[10-Mar-2021 23:23:17 Europe/Kiev] PHP Fatal error:  Type of User::$table must be string (as in class Model) in C:\xampp\htdocs\flowersmarquet.csm\app\models\User.php on line 4
+[11-Mar-2021 20:25:07 Europe/Kiev] PHP Fatal error:  Type of User::$table must be string (as in class Model) in C:\xampp\htdocs\flowersmarquet.csm\app\models\User.php on line 4
+[11-Mar-2021 20:33:18 Europe/Kiev] PHP Fatal error:  Type of User::$table must be string (as in class Model) in C:\xampp\htdocs\flowersmarquet.csm\app\models\User.php on line 4
+[11-Mar-2021 20:38:12 Europe/Kiev] PHP Fatal error:  Type of User::$table must be string (as in class Model) in C:\xampp\htdocs\flowersmarquet.csm\app\models\User.php on line 4
+[11-Mar-2021 23:53:26 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method LoginController::signin() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:63
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 63
+[11-Mar-2021 23:54:27 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method LoginController::signin() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:63
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 63
+[11-Mar-2021 23:54:40 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method LoginController::signin() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:63
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 63
+[11-Mar-2021 23:54:59 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method LoginController::signin() in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:63
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 63
+[11-Mar-2021 23:56:32 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 10
+[11-Mar-2021 23:56:32 Europe/Kiev] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 13
+[11-Mar-2021 23:56:32 Europe/Kiev] PHP Warning:  Undefined array key "password" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 14
+[12-Mar-2021 00:00:20 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 10
+[12-Mar-2021 00:00:20 Europe/Kiev] PHP Fatal error:  Uncaught Error: Typed static property Model::$pk must not be accessed before initialization in C:\xampp\htdocs\flowersmarquet.csm\core\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php(18): Model->getByPK(3)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): LoginController->signin(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\model.php on line 16
+[12-Mar-2021 00:05:28 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 10
+[12-Mar-2021 00:05:29 Europe/Kiev] PHP Fatal error:  Uncaught Error: Typed static property Model::$pk must not be accessed before initialization in C:\xampp\htdocs\flowersmarquet.csm\core\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php(19): Model->getByPK(3)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): LoginController->signin(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\model.php on line 16
+[12-Mar-2021 00:08:39 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 10
+[12-Mar-2021 00:08:40 Europe/Kiev] PHP Fatal error:  Uncaught Error: Typed static property Model::$pk must not be accessed before initialization in C:\xampp\htdocs\flowersmarquet.csm\core\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php(19): Model->getByPK(3)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): LoginController->signin(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\model.php on line 16
+[12-Mar-2021 00:10:26 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 10
+[12-Mar-2021 00:10:26 Europe/Kiev] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 14
+[12-Mar-2021 00:10:26 Europe/Kiev] PHP Warning:  Undefined array key "password" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 14
+[12-Mar-2021 00:10:37 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 10
+[12-Mar-2021 00:10:38 Europe/Kiev] PHP Fatal error:  Uncaught Error: Typed static property Model::$pk must not be accessed before initialization in C:\xampp\htdocs\flowersmarquet.csm\core\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php(19): Model->getByPK(3)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): LoginController->signin(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\model.php on line 16
+[12-Mar-2021 18:28:27 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 10
+[12-Mar-2021 18:28:28 Europe/Kiev] PHP Fatal error:  Uncaught Error: Typed static property Model::$pk must not be accessed before initialization in C:\xampp\htdocs\flowersmarquet.csm\core\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php(19): Model->getByPK(3)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): LoginController->signin(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\model.php on line 16
+[12-Mar-2021 19:37:43 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 10
+[12-Mar-2021 19:37:43 Europe/Kiev] PHP Fatal error:  Uncaught Error: Typed static property Model::$pk must not be accessed before initialization in C:\xampp\htdocs\flowersmarquet.csm\core\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php(19): Model->getByPK(3)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): LoginController->signin(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\model.php on line 16
+[12-Mar-2021 19:37:54 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 10
+[12-Mar-2021 19:38:06 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 10
+[12-Mar-2021 19:38:06 Europe/Kiev] PHP Fatal error:  Uncaught Error: Typed static property Model::$pk must not be accessed before initialization in C:\xampp\htdocs\flowersmarquet.csm\core\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php(19): Model->getByPK(1)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): LoginController->signin(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\model.php on line 16
+[12-Mar-2021 19:40:21 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 10
+[12-Mar-2021 19:40:21 Europe/Kiev] PHP Fatal error:  Uncaught Error: Typed static property Model::$pk must not be accessed before initialization in C:\xampp\htdocs\flowersmarquet.csm\core\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php(19): Model->getByPK(1)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): LoginController->signin(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\model.php on line 16
+[12-Mar-2021 19:40:33 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 10
+[12-Mar-2021 19:40:33 Europe/Kiev] PHP Fatal error:  Uncaught Error: Typed static property Model::$pk must not be accessed before initialization in C:\xampp\htdocs\flowersmarquet.csm\core\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php(19): Model->getByPK(3)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): LoginController->signin(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\model.php on line 16
+[12-Mar-2021 19:48:11 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 10
+[12-Mar-2021 19:48:11 Europe/Kiev] PHP Fatal error:  Uncaught Error: Typed static property Model::$pk must not be accessed before initialization in C:\xampp\htdocs\flowersmarquet.csm\core\model.php:16
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php(19): Model->getByPK(4)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): LoginController->signin(Array)
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(LoginController), 'signin')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\model.php on line 16

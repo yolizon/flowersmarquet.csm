@@ -46,27 +46,27 @@
             </div>    
         </div>
     </footer>
-    <div class="modal" id="openmodal">
+    <div class="modal" id="login">
         <div class="dialog">
-            <a href="#close" title="close login window" class="close">X</a>
+            <a href="#close" title="close login window" class="close">&times;</a>
             <div class="col-left">
                 <div class="login-text">
                     <h2>Welcome back</h2>
                     <p>Create your account,<br>It's Totally free</p>
-                    <a href="#register" class="btn">Sign Up</a>
+                    <a href="/#register" class="btn">Sign Up</a>
                 </div>
             </div>
             <div class="col-right">
                 <div class="login-form">
                     <h2>Sign in</h2>
-                    <form>
+                    <form method="POST" action="/login">
                         <p>
-                            <label>Username or email<span>*</span></label>
-                            <input type="text" placeholder='Username or email' required>
+                            <label>Email<span>*</span></label>
+                            <input type="email" name="email" placeholder='Username or email' required>
                         </p>
                         <p>
                             <label>Password<span>*</span></label>
-                            <input type="password" placeholder='Password' required>
+                            <input type="password" name="password" placeholder='Password' required>
                         </p>
                         <p>
                             <input type="submit" value="Sign in">
@@ -84,29 +84,29 @@
     </div>
     <div class="modal" id="register">
         <div class="dialog">
-            <a href="#cancel" title="close login window" class="close">X</a>
+            <a href="#cancel" title="close login window" class="close">&times;</a>
             <div class="col-left">
                 <div class="login-text">
                     <h2>Create Account</h2>
                     <p>Have account?</p>
-                    <a href="#openmodal" class="btn">Sign in</a>
+                    <a href="/#login" class="btn">Sign in</a>
                 </div>
             </div>
             <div class="col-right">
                 <div class="login-form">
                     <h2>Sign up</h2>
-                    <form>
+                    <form method="POST" action="/register">
                         <p>
-                            <label for="">Username or email<span>*</span></label>
-                            <input type="text" placeholder='Username or email' required>
+                            <label for="">Email adress<span>*</span></label>
+                            <input type="email" name='email' placeholder='Email' required>
                         </p>
                         <p>
                             <label for="">Password<span>*</span></label>
-                            <input type="password" placeholder='Password' required>
+                            <input type="password" name='password' placeholder='Password' required>
                         </p>
                         <p>
                             <label for="">Confirm Password<span>*</span></label>
-                            <input type="password" placeholder='Confirm Password' required>
+                            <input type="password"name='confirmpassword' placeholder='Retype Password Again' required>
                         </p>
                         <p>
                             <input type="submit" value="Sign up">
