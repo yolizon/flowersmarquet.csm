@@ -28,8 +28,11 @@ return [
     'admin/products/edit/{id}'=>'Admin\ProductController@edit',
     'admin/products/delete/{id}'=>'Admin\ProductController@delete',
     'api/products'=>'HomeController@getProducts',
-
+    'api/products'=>'ShopController@getProducts',
+    'api/cart'=>'OrderController@cart',
+    
     'register' => 'RegisterController@signup',
     'login' => 'LoginController@signin',
+    'logout' => 'LoginController@logout',
     'profile' => 'ProfileController@index',
 ];

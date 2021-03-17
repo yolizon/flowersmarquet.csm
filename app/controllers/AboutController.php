@@ -1,5 +1,10 @@
 <?php
-
+require_once ROOT.'/core/Controller.php';
+class AboutController extends Controller{
+    public function __construct()
+    {
+        parent::__construct('app');
+    }
 $address = conf('about');
 $con = mysqli_connect('localhost', 'root', '', 'shop') or die(mysqli_connect_error());
 
@@ -48,8 +53,6 @@ if(!empty($_POST)){
 
     $rules = load($rules);
     if($errors = validate($rules)){
-        // var_dump(['errors'=>$errors]);
-        // exit();
         render('errors/index', ['errors'=>$errors, 'title'=>"Error page"]);
     }else{
 
@@ -65,7 +68,8 @@ if(!empty($_POST)){
     }
 }
 $sql ="SELECT * FROM guestbook";
-    $result = mysqli_query($con, $sql) or die("error selecting rows".mysqli_error($con));
+$result = mysqli_query($con, $sql) or die("error selecting rows".mysqli_error($con));
 $messages=mysqli_fetch_all($result, MYSQLI_ASSOC);
 // var_dump($address);
 render('about/index', ['address'=>$address, 'messages'=>$messages]);
+}

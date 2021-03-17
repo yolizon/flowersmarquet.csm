@@ -5,7 +5,17 @@ require_once ROOT.'/core/BaseController.php';
 
 class LoginController extends BaseController
 { 
-
+    public function __construct()
+    {
+        parent::__construct();
+        if($userId=$this->session()->get('userId')){
+            $this->user = (new User)->getByPK($userId);
+            if( $this->user != NULL ) {
+                $this->logged_in = true;
+                $this->user_id = $userId;
+            }
+        }
+    }
     public function signin(){
         if ($this->logged_id === true){
             $this->redirect('/profile');
@@ -37,5 +47,10 @@ class LoginController extends BaseController
                 return false;
             }
         }
+    }
+    public function logout(){
+        $this->session()->destroy();
+        $this->logged_in = false;
+        $this->redirect('/');
     }
 }

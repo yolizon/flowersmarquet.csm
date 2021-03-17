@@ -1,6 +1,15 @@
 <?php
-class AboutController {
+require_once ROOT.'/core/Controller.php';
+class AboutController extends Controller {
+    public function __construct()
+    {
+        parent::__construct('admin');
+    }
     public function index(){
+        $this->render('admin/contact/index', ['title'=>$title, 'data'=>$data], 'admin');
+    }
+    public function index(){
+
         $title ="Admin Contact";
         $data = conf('about');
         // $data =$data;

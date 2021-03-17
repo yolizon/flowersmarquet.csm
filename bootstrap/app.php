@@ -45,7 +45,18 @@ function conf($mix){
         return false;
     }
 }
+
+function isGuest(){
+    if(isset($_SESSION['Logged'])){
+        return false;
+    }
+    return true;
+}
+
+
 require_once ROOT.'/core/router.php';
 require_once ROOT.'/core/request.php';
+require_once ROOT.'/core/session.php';
+Session::instance();
 $router =new Router(new Request());
 $router->run();

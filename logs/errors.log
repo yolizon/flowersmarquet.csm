@@ -1580,3 +1580,448 @@ Stack trace:
 #4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
 #5 {main}
   thrown in C:\xampp\htdocs\flowersmarquet.csm\core\model.php on line 16
+[15-Mar-2021 19:24:37 Europe/Kiev] PHP Parse error:  syntax error, unexpected token "public" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 18
+[15-Mar-2021 19:25:06 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 20
+[15-Mar-2021 20:26:02 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\HomeController.php(8): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(57): HomeController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'HomeController', 'index')
+#6 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#7 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:26:02 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(7): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#6 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:26:06 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\HomeController.php(8): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(57): HomeController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'HomeController', 'index')
+#6 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#7 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:26:06 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(7): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#6 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:26:08 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\HomeController.php(8): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(57): HomeController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'HomeController', 'index')
+#6 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#7 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:26:08 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(7): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#6 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:26:11 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php:3
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(56): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'ShopController', 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php on line 3
+[15-Mar-2021 20:26:11 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(7): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#6 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:26:13 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(7): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#6 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:26:13 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\HomeController.php(8): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(57): HomeController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'HomeController', 'index')
+#6 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#7 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:26:14 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(7): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#6 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:26:15 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(7): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#6 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:26:16 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(7): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#6 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:26:21 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\HomeController.php(8): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(57): HomeController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'HomeController', 'index')
+#6 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#7 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:26:21 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(7): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#6 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 13
+[15-Mar-2021 20:29:39 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:12
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\HomeController.php(8): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(57): HomeController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'HomeController', 'index')
+#6 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#7 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 12
+[15-Mar-2021 20:29:39 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function isGuest() in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php:12
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\app.php(13): require_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\view.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(19): View->__construct('app')
+#3 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(7): Controller->__construct('app')
+#4 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->__construct()
+#5 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(51): Router->run()
+#6 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\views\layouts\partials\site\aside.php on line 12
+[15-Mar-2021 20:43:51 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php:3
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(56): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'ShopController', 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php on line 3
+[15-Mar-2021 20:55:21 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[15-Mar-2021 20:55:32 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php:71
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(56): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'AboutController', 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 71
+[15-Mar-2021 20:58:32 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[15-Mar-2021 20:58:54 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php:71
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(56): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'AboutController', 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 71
+[15-Mar-2021 21:12:19 Europe/Kiev] PHP Parse error:  syntax error, unexpected token "public" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 32
+[15-Mar-2021 21:12:58 Europe/Kiev] PHP Parse error:  syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 51
+[15-Mar-2021 21:15:03 Europe/Kiev] PHP Parse error:  Unclosed '{' on line 4 in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 84
+[15-Mar-2021 21:15:20 Europe/Kiev] PHP Fatal error:  Constant expression contains invalid operations in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 14
+[15-Mar-2021 21:16:09 Europe/Kiev] PHP Parse error:  Unclosed '{' on line 51 in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 85
+[15-Mar-2021 21:16:21 Europe/Kiev] PHP Parse error:  Unclosed '{' on line 4 in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 85
+[15-Mar-2021 21:16:38 Europe/Kiev] PHP Fatal error:  Constant expression contains invalid operations in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 14
+[15-Mar-2021 21:32:09 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php:31
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): AboutController->index(Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(AboutController), 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 31
+[15-Mar-2021 21:35:27 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php:31
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): AboutController->index(Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(AboutController), 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 31
+[15-Mar-2021 21:35:33 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php:31
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): AboutController->index(Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(AboutController), 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 31
+[15-Mar-2021 21:35:43 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php:31
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): AboutController->index(Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(AboutController), 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 31
+[15-Mar-2021 21:38:02 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php:37
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): AboutController->index(Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(AboutController), 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 37
+[15-Mar-2021 21:38:04 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php:37
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(63): AboutController->index(Array)
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(AboutController), 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\Admin\AboutController.php on line 37
+[15-Mar-2021 21:45:16 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 20
+[17-Mar-2021 18:35:30 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[17-Mar-2021 18:35:56 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[17-Mar-2021 18:36:03 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[17-Mar-2021 18:38:02 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[17-Mar-2021 18:38:06 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[17-Mar-2021 18:38:20 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[17-Mar-2021 18:40:55 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[17-Mar-2021 18:41:30 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 20
+[17-Mar-2021 18:41:49 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 23 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(23): View->render('errors/index', 'CONTENT_TYPE mu...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(10): Controller->render('errors/index', 'CONTENT_TYPE mu...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('CONTENT_TYPE mu...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(OrderController), 'cart')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[17-Mar-2021 19:21:59 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Controller::__construct(), 0 passed in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\HomeController.php on line 9 and at least 1 expected in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\HomeController.php(9): Controller->__construct()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(57): HomeController->__construct()
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'HomeController', 'index')
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 13
+[17-Mar-2021 19:21:59 Europe/Kiev] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Controller::__construct(), 0 passed in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php on line 8 and at least 1 expected in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php:13
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(8): Controller->__construct()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->__construct()
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 13
+[17-Mar-2021 19:28:22 Europe/Kiev] PHP Notice:  Accessing static property HomeController::$layout as non static in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18
+[17-Mar-2021 19:28:22 Europe/Kiev] PHP Warning:  Undefined property: HomeController::$layout in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18
+[17-Mar-2021 19:28:22 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::__construct(): Argument #1 ($layout) must be of type string, null given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:8
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(18): View->__construct(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\HomeController.php(9): Controller->__construct()
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(57): HomeController->__construct()
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'HomeController', 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 8
+[17-Mar-2021 19:28:22 Europe/Kiev] PHP Notice:  Accessing static property ErrorController::$layout as non static in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18
+[17-Mar-2021 19:28:22 Europe/Kiev] PHP Warning:  Undefined property: ErrorController::$layout in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18
+[17-Mar-2021 19:28:22 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::__construct(): Argument #1 ($layout) must be of type string, null given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:8
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(18): View->__construct(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(8): Controller->__construct()
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->__construct()
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 8
+[17-Mar-2021 19:28:39 Europe/Kiev] PHP Notice:  Accessing static property HomeController::$layout as non static in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18
+[17-Mar-2021 19:28:39 Europe/Kiev] PHP Warning:  Undefined property: HomeController::$layout in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18
+[17-Mar-2021 19:28:39 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::__construct(): Argument #1 ($layout) must be of type string, null given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:8
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(18): View->__construct(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\HomeController.php(9): Controller->__construct()
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(57): HomeController->__construct()
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', 'HomeController', 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 8
+[17-Mar-2021 19:28:39 Europe/Kiev] PHP Notice:  Accessing static property ErrorController::$layout as non static in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18
+[17-Mar-2021 19:28:39 Europe/Kiev] PHP Warning:  Undefined property: ErrorController::$layout in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18
+[17-Mar-2021 19:28:39 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::__construct(): Argument #1 ($layout) must be of type string, null given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:8
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(18): View->__construct(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(8): Controller->__construct()
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(38): ErrorController->__construct()
+#3 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#4 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 8
+[17-Mar-2021 19:30:01 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[17-Mar-2021 19:30:03 Europe/Kiev] PHP Parse error:  syntax error, unexpected variable "$address", expecting "function" or "const" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 8
+[17-Mar-2021 19:30:10 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[17-Mar-2021 19:33:32 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(18): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(11): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(ProfileController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[17-Mar-2021 19:46:22 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(18): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(11): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(ProfileController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[17-Mar-2021 19:46:27 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(18): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(11): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(ProfileController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[17-Mar-2021 19:46:34 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[17-Mar-2021 19:46:35 Europe/Kiev] PHP Parse error:  syntax error, unexpected variable "$address", expecting "function" or "const" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 8
+[17-Mar-2021 19:46:37 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[17-Mar-2021 19:46:41 Europe/Kiev] PHP Parse error:  syntax error, unexpected variable "$address", expecting "function" or "const" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 8
+[17-Mar-2021 19:50:56 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(18): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(11): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(ProfileController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[17-Mar-2021 19:55:02 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(18): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(11): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(ProfileController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[17-Mar-2021 19:55:03 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(18): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(11): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(ProfileController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[17-Mar-2021 19:55:07 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(18): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(11): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(ProfileController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[17-Mar-2021 19:55:27 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: View::render(): Argument #2 ($params) must be of type array, string given, called in C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php on line 18 and defined in C:\xampp\htdocs\flowersmarquet.csm\core\view.php:17
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\Controller.php(18): View->render('errors/index', 'SQLSTATE[42000]...')
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php(11): Controller->render('errors/index', 'SQLSTATE[42000]...')
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(66): ErrorController->errors('SQLSTATE[42000]...')
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Router->init('C:\\xampp\\htdocs...', Object(ProfileController), 'index')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(62): Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\view.php on line 17
+[17-Mar-2021 19:56:15 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[17-Mar-2021 20:00:38 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[17-Mar-2021 20:00:39 Europe/Kiev] PHP Parse error:  syntax error, unexpected variable "$address", expecting "function" or "const" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 8
