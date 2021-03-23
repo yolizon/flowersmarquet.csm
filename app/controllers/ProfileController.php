@@ -1,9 +1,9 @@
 <?php
+namespace App\Controllers;
 
-require_once ROOT.'/core/Controller.php';
-require_once ROOT.'/app/models/User.php';
-require_once ROOT.'/app/models/order.php';
-require_once ROOT.'/app/models/product.php';
+use Core\Controller;
+use App\Models\{User, Order, Product};
+
 class ProfileController extends Controller
 {
     protected static string $layout ='app';

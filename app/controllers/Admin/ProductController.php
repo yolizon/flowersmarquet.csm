@@ -1,15 +1,16 @@
 <?php
-require_once APP.'/models/product.php';
-require_once APP.'/models/brand.php';
-require_once APP.'/models/Category.php';
-require_once ROOT.'/core/Controller.php';
+namespace App\Controllers\Admin;
+use Core\Controller;
+use App\Models\{Brand, Product, Category};
+
 
 
 class ProductController extends Controller 
 {
+    protected static string $layout='admin';
     public function __construct()
     {
-        parent::__construct('admin');
+        parent::__construct();
     }
     public function index(){
    

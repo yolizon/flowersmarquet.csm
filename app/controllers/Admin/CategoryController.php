@@ -1,12 +1,14 @@
 <?php
-require_once APP.'/models/Category.php';
-require_once ROOT.'/core/Controller.php';
+namespace App\Controllers\Admin;
+use Core\Controller;
+use App\Models\Category;
 
 class CategoryController extends Controller 
 {
+    protected static string $layout='admin';
     public function __construct()
     {
-        parent::__construct('admin');
+        parent::__construct();
     }
     public function index(){
    

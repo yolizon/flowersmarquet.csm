@@ -2025,3 +2025,590 @@ Stack trace:
 [17-Mar-2021 19:56:15 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
 [17-Mar-2021 20:00:38 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
 [17-Mar-2021 20:00:39 Europe/Kiev] PHP Parse error:  syntax error, unexpected variable "$address", expecting "function" or "const" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 8
+[22-Mar-2021 21:49:42 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[22-Mar-2021 21:49:44 Europe/Kiev] PHP Parse error:  syntax error, unexpected variable "$address", expecting "function" or "const" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 8
+[22-Mar-2021 21:50:06 Europe/Kiev] PHP Parse error:  syntax error, unexpected variable "$address", expecting "function" or "const" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 8
+[22-Mar-2021 22:09:57 Europe/Kiev] PHP Parse error:  syntax error, unexpected variable "$address", expecting "function" or "const" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 8
+[22-Mar-2021 22:12:04 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[22-Mar-2021 22:17:21 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[22-Mar-2021 22:19:21 Europe/Kiev] PHP Warning:  Undefined property: LoginController::$logged_id in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\LoginController.php on line 20
+[23-Mar-2021 13:18:51 Europe/Kiev] PHP Warning:  Array to string conversion in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 64
+[23-Mar-2021 13:18:51 Europe/Kiev] PHP Warning:  Array to string conversion in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 64
+[23-Mar-2021 13:18:51 Europe/Kiev] PHP Warning:  Array to string conversion in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 64
+[23-Mar-2021 13:18:51 Europe/Kiev] PHP Warning:  Array to string conversion in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 64
+[23-Mar-2021 13:18:51 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Core\Session" not found in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php:71
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 71
+[23-Mar-2021 13:18:52 Europe/Kiev] PHP Warning:  Array to string conversion in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 64
+[23-Mar-2021 13:18:52 Europe/Kiev] PHP Warning:  Array to string conversion in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 64
+[23-Mar-2021 13:18:52 Europe/Kiev] PHP Warning:  Array to string conversion in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 64
+[23-Mar-2021 13:18:52 Europe/Kiev] PHP Warning:  Array to string conversion in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 64
+[23-Mar-2021 13:18:52 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Core\Session" not found in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php:71
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php on line 71
+[23-Mar-2021 13:20:17 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "BlogController" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:57
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Core\Router->init('C:\\xampp\\htdocs...', 'BlogController', 'index')
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 57
+[23-Mar-2021 13:20:17 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Controller" not found in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php:4
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(37): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php on line 4
+[23-Mar-2021 13:25:43 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "BlogController" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:57
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Core\Router->init('C:\\xampp\\htdocs...', 'BlogController', 'index')
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 57
+[23-Mar-2021 13:25:44 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Controller" not found in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php:4
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(37): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php on line 4
+[23-Mar-2021 13:29:03 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Controller" not found in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\HomeController.php:5
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(56): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Core\Router->init('C:\\xampp\\htdocs...', 'HomeController', 'index')
+#2 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#3 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\HomeController.php on line 5
+[23-Mar-2021 13:29:03 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Controller" not found in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php:4
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(37): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php on line 4
+[23-Mar-2021 13:33:00 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "HomeController" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:57
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Core\Router->init('C:\\xampp\\htdocs...', 'HomeController', 'index')
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 57
+[23-Mar-2021 13:33:00 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Controller" not found in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php:4
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(37): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php on line 4
+[23-Mar-2021 13:34:20 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "HomeController" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:57
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Core\Router->init('C:\\xampp\\htdocs...', 'HomeController', 'index')
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 57
+[23-Mar-2021 13:34:20 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Controller" not found in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php:4
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(37): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php on line 4
+[23-Mar-2021 13:38:45 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "HomeController" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:57
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(16): Core\Router->init('C:\\xampp\\htdocs...', 'HomeController', 'index')
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 57
+[23-Mar-2021 13:38:46 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Controller" not found in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php:4
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(37): include_once()
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ErrorController.php on line 4
+[23-Mar-2021 14:12:45 Europe/Kiev] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 34
+[23-Mar-2021 14:12:46 Europe/Kiev] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 34
+[23-Mar-2021 14:13:11 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Core\PDO" not found in C:\xampp\htdocs\flowersmarquet.csm\core\connection.php:19
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\model.php(9): Core\Connection::connect()
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php(22): Core\Model->__construct()
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(44): App\Controllers\ShopController->getProducts(Array)
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(17): Core\Router->init('ShopController@...')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\connection.php on line 19
+[23-Mar-2021 14:13:13 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:13:13 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:13:13 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:13:40 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Core\PDO" not found in C:\xampp\htdocs\flowersmarquet.csm\core\connection.php:19
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\model.php(9): Core\Connection::connect()
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php(22): Core\Model->__construct()
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(44): App\Controllers\ShopController->getProducts(Array)
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(17): Core\Router->init('ShopController@...')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\connection.php on line 19
+[23-Mar-2021 14:13:40 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:13:40 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:13:41 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:13:59 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Core\PDO" not found in C:\xampp\htdocs\flowersmarquet.csm\core\connection.php:19
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\model.php(9): Core\Connection::connect()
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php(22): Core\Model->__construct()
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(44): App\Controllers\ShopController->getProducts(Array)
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(17): Core\Router->init('ShopController@...')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\connection.php on line 19
+[23-Mar-2021 14:14:01 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:14:01 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:14:01 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:14:05 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Core\PDO" not found in C:\xampp\htdocs\flowersmarquet.csm\core\connection.php:19
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\model.php(9): Core\Connection::connect()
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ShopController.php(22): Core\Model->__construct()
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(44): App\Controllers\ShopController->getProducts(Array)
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(17): Core\Router->init('ShopController@...')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\connection.php on line 19
+[23-Mar-2021 14:14:05 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:14:05 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:14:05 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:15:14 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "Core\PDO" not found in C:\xampp\htdocs\flowersmarquet.csm\core\connection.php:19
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\model.php(9): Core\Connection::connect()
+#1 C:\xampp\htdocs\flowersmarquet.csm\app\controllers\ProfileController.php(15): Core\Model->__construct()
+#2 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(42): App\Controllers\ProfileController->__construct()
+#3 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(17): Core\Router->init('ProfileControll...')
+#4 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#5 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\connection.php on line 19
+[23-Mar-2021 14:15:14 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:15:14 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:15:15 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:37:06 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:37:06 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:37:09 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:50:45 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:50:45 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:50:45 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:53:11 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:53:11 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:53:11 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:53:13 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:53:13 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:53:13 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:53:15 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:53:15 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:53:15 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:53:17 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:53:17 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:53:17 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:53:18 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:53:18 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:53:18 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:53:23 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:53:23 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:53:23 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:54:54 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:54:54 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:54:54 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:55:05 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:55:05 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:55:05 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:55:40 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:55:40 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:55:40 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:56:07 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:56:07 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:56:07 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 14:59:06 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 14:59:06 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 14:59:06 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:57:04 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:57:04 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:57:04 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:57:11 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:57:11 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:57:11 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:57:19 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:57:19 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:57:19 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:57:28 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:57:28 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:57:28 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:57:29 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[23-Mar-2021 19:57:31 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:57:31 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:57:31 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:58:23 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[23-Mar-2021 19:58:27 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:58:27 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:58:27 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:58:30 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:58:30 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:58:30 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:58:32 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[23-Mar-2021 19:58:32 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:58:32 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:58:32 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:58:33 Europe/Kiev] PHP Parse error:  syntax error, unexpected variable "$address", expecting "function" or "const" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 12
+[23-Mar-2021 19:58:34 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:58:34 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:58:34 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:58:35 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[23-Mar-2021 19:58:36 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:58:36 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:58:36 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:58:38 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:58:38 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:58:38 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:59:17 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:59:17 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:59:17 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:59:44 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:59:44 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:59:44 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 19:59:49 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[23-Mar-2021 19:59:51 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 19:59:51 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 19:59:51 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:00:04 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:00:04 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:00:04 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:00:19 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:00:19 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:00:19 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:00:41 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:00:41 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:00:41 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:00:48 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:00:48 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:00:48 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:05:57 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:05:57 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:05:57 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:06:25 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:06:25 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:06:25 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:06:54 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:06:54 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:06:54 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:06:58 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[23-Mar-2021 20:07:01 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:07:01 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:07:01 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:07:03 Europe/Kiev] PHP Parse error:  syntax error, unexpected variable "$address", expecting "function" or "const" in C:\xampp\htdocs\flowersmarquet.csm\app\controllers\AboutController.php on line 12
+[23-Mar-2021 20:07:03 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:07:03 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:07:03 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:07:04 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[23-Mar-2021 20:07:06 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:07:06 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:07:06 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:07:48 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[23-Mar-2021 20:07:51 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:07:51 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:07:51 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:07:55 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:07:55 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:07:55 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:09:07 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:09:07 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:09:07 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42
+[23-Mar-2021 20:09:20 Europe/Kiev] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\flowersmarquet.csm\app\views\shop\index.php on line 1
+[23-Mar-2021 20:09:22 Europe/Kiev] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 33
+[23-Mar-2021 20:09:22 Europe/Kiev] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 40
+[23-Mar-2021 20:09:22 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class "\App\Controllers\" not found in C:\xampp\htdocs\flowersmarquet.csm\core\router.php:42
+Stack trace:
+#0 C:\xampp\htdocs\flowersmarquet.csm\core\router.php(33): Core\Router->init(NULL)
+#1 C:\xampp\htdocs\flowersmarquet.csm\bootstrap\app.php(72): Core\Router->run()
+#2 C:\xampp\htdocs\flowersmarquet.csm\public\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\flowersmarquet.csm\core\router.php on line 42

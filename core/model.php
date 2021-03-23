@@ -1,5 +1,7 @@
 <?php
-require_once ROOT."/core/connection.php";
+namespace Core;
+
+
 class Model{
     protected static string $table;
     protected static string $pk;

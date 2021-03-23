@@ -302,12 +302,12 @@ document.addEventListener("DOMContentLoaded", function(){
     //saveProducts(products);
     fetchData('products');
 
-    const categories = [...new Set(getProducts().map(item=> (
+    const categories = [...new Map(getProducts().map(item=>[item['category'], item])).values()].map(item=> (
         {
             name:item.category,
             image: item.image
         }
-    )))];
+    ));
     document.body.style.setProperty( "--categories-length", categories.length);
     makeCarousel(categories);
     makeShowcase(getProducts());

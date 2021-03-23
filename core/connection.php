@@ -1,5 +1,6 @@
 <?php
-
+namespace Core;
+use PDO;
 class Connection 
 {
     private static $config =[];

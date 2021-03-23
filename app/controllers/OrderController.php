@@ -1,7 +1,10 @@
 <?php
-require_once ROOT.'/core/BaseController.php';
-require_once ROOT.'/app/models/User.php';
-require_once ROOT.'/app/models/order.php';
+namespace App\Controllers;
+
+use Core\BaseController;
+use App\Models\{User, Order};
+
+
 class OrderController extends BaseController
 {
     public function __construct()

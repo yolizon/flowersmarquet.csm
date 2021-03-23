@@ -1,5 +1,7 @@
 <?php
-require_once ROOT."/core/model.php";
+namespace App\Models;
+use Core\Model;
+
 
 class Brand extends Model{
     protected static string $table="brands";

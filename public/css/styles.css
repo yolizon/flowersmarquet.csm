@@ -58,11 +58,11 @@ body {
   font-weight: 700;
   }
   a {
-  color: rgb(54, 139, 72);
+  color: rgb(3, 2, 2);
   text-decoration: none; 
   }
   a:hover {
-  color:rgb(55, 95, 51) ;
+  color:rgb(3, 2, 2);
   text-decoration: underline;
   }
 
@@ -74,14 +74,14 @@ body {
   }
   .btn-dark {
   color: white;
-  background-color: darkolivegreen;
+  background-color: rgb(3, 2, 2);
   padding: 0.5em 0.5em;
-  border:rgb(54, 139, 72) 1px;
+  border:rgb(3, 2, 2) 1px;
   border-radius: 5%;
   }
   .btn-dark:hover {
-  color: rgb(148, 211, 162);
-  background-color: darkolivegreen;
+  color: rgb(3, 2, 2);
+  background-color: rgb(3, 2, 2);
   text-decoration: none;
   }
   .btn-sm {
@@ -91,8 +91,8 @@ body {
   .btn-browse {
   font-size: 1rem;
   line-height: 1rem;
-  background-color: darkolivegreen ;
-  background:linear-gradient(rgb(148, 211, 162),darkolivegreen);
+  background-color: rgb(3, 2, 2) ;
+  background:linear-gradient(rgb(3, 2, 2),white);
   color: ivory;
   border-radius: 5%;
   padding: 0.6rem 1rem ;

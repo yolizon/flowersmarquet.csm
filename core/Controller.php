@@ -1,8 +1,7 @@
 <?php
-require_once ROOT.'/core/view.php';
-// require_once ROOT.'/core/response.php';
-// require_once ROOT.'/core/request.php';
-require_once ROOT.'/core/BaseController.php';
+namespace Core;
+use Core\{View, BaseController};
+
 class Controller extends BaseController
 {
     protected static string $layout ='app';

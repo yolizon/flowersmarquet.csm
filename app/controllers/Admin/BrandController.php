@@ -1,12 +1,15 @@
 <?php
-require_once APP.'/models/brand.php';
-require_once ROOT.'/core/Controller.php';
+namespace App\Controllers\Admin;
+use Core\Controller;
+use App\Models\Brand;
+
 
 class BrandController extends Controller 
 {
+    protected static string $layout='admin';
     public function __construct()
     {
-        parent::__construct('admin');
+        parent::__construct();
     }
     public function index(){
    

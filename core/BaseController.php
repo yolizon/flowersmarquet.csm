@@ -1,7 +1,6 @@
 <?php
-require_once ROOT."/core/response.php";
-require_once ROOT."/core/request.php";
-require_once ROOT."/core/session.php";
+namespace Core;
+
 class BaseController
 {
     public $response;

@@ -1,20 +1,21 @@
 <?php
-require_once ROOT.'/core/Controller.php';
+namespace App\Controllers\Admin;
+use Core\Controller;
+
 class AboutController extends Controller {
+    protected static string $layout='admin';
     public function __construct()
     {
-        parent::__construct('admin');
+        parent::__construct();
     }
     public function index(){
         $this->render('admin/contact/index', ['title'=>$title, 'data'=>$data], 'admin');
     }
     public function index(){
-
         $title ="Admin Contact";
         $data = conf('about');
         // $data =$data;
         $url = ROOT.'/config/about.json';
-        
         if ($_POST) {
             if(!$_POST['email'] or !$_POST['street'] or !$_POST['city'] or !$_POST['country'] or !$_POST['mobile']){
                 echo "pleeease, complete all fields";
@@ -36,8 +37,7 @@ class AboutController extends Controller {
                 }
             }
            
-        }
-    render('admin/contact/index', ['title'=>$title, 'data'=>$data], 'admin');        
+        }       
     }
     public function list(){
         $con = mysqli_connect('localhost', 'root', '', 'shop') or die(mysqli_connect_error());

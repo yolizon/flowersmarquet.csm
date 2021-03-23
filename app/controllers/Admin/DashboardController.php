@@ -1,9 +1,13 @@
 <?php
-require_once ROOT.'/core/Controller.php';
+namespace App\Controllers\Admin;
+use Core\Controller;
+
+
 class DashboardController extends Controller {
+    protected static string $layout='admin';
     public function __construct()
     {
-        parent::__construct('admin');
+        parent::__construct();
     }
     public function index(){
 

@@ -1,7 +1,9 @@
 <?php
-// $title ="Home page";
-require_once ROOT.'/core/Controller.php';
-require_once ROOT.'/app/models/product.php';
+namespace App\Controllers;
+
+use Core\Controller;
+use App\Models\Product;
+
 class HomeController extends Controller {
     protected static string $layout='app';
     public function __construct()

@@ -1,7 +1,9 @@
 <?php
+namespace App\Controllers;
 
-require_once APP.'/models/User.php';
-require_once ROOT.'/core/BaseController.php';
+use Core\BaseController;
+use App\Models\User;
+
 
 class RegisterController extends BaseController
 {

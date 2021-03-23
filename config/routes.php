@@ -30,6 +30,10 @@ return [
     'api/products'=>'HomeController@getProducts',
     'api/products'=>'ShopController@getProducts',
     'api/cart'=>'OrderController@cart',
+
+    'admin/users' => 'Admin\UserController@index',
+    'admin/users/create' => 'Admin\UserController@create',
+    'admin/users/store' => 'Admin\UserController@store',
     
     'register' => 'RegisterController@signup',
     'login' => 'LoginController@signin',

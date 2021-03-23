@@ -1,4 +1,8 @@
 <?php
+namespace App\Controllers;
+
+use Core\Controller;
+
 require_once ROOT.'/core/Controller.php';
 class AboutController extends Controller{
     public function __construct()

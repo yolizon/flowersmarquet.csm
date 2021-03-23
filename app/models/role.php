@@ -1,7 +1,8 @@
 <?php
-require_once ROOT."/core/model.php";
+namespace App\Models;
+use Core\Model;
 class Role extends Model
 {
-    protected static $table = 'roles';
-    protected static $primaryKey = 'id';
+    protected static string $table = 'roles';
+    protected static string $pk = 'id';
 }
