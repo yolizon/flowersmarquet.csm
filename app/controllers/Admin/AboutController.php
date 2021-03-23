@@ -9,9 +9,6 @@ class AboutController extends Controller {
         parent::__construct();
     }
     public function index(){
-        $this->render('admin/contact/index', ['title'=>$title, 'data'=>$data], 'admin');
-    }
-    public function index(){
         $title ="Admin Contact";
         $data = conf('about');
         // $data =$data;
@@ -38,7 +35,9 @@ class AboutController extends Controller {
             }
            
         }       
+        $this->render('admin/contact/index', ['title'=>$title, 'data'=>$data], 'admin');
     }
+
     public function list(){
         $con = mysqli_connect('localhost', 'root', '', 'shop') or die(mysqli_connect_error());
         $sql ="SELECT * FROM guestbook";

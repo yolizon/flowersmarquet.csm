@@ -3,23 +3,24 @@ namespace App\Controllers;
 
 use Core\Controller;
 
-require_once ROOT.'/core/Controller.php';
 class AboutController extends Controller{
+    protected static string $layout='app';
     public function __construct()
     {
-        parent::__construct('app');
+        parent::__construct();
     }
-$address = conf('about');
-$con = mysqli_connect('localhost', 'root', '', 'shop') or die(mysqli_connect_error());
+    public function index(){
+    $address = conf('about');
+    $con = mysqli_connect('localhost', 'root', '', 'shop') or die(mysqli_connect_error());
 
-function sanitize_input($data){
-$data = trim($data);
-$data = stripslashes($data);
-$data = strip_tags($data);
-$data =  htmlspecialchars($data);
+    function sanitize_input($data){
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = strip_tags($data);
+    $data =  htmlspecialchars($data);
 
-return $data;
-}
+    return $data;
+    }
 function load($data){
      foreach ($_POST as $key => $value) {
         if (array_key_exists($key, $data)) {
